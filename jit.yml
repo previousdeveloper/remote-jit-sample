@@ -1,0 +1,181 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/gokhan.karadas/Desktop/SourceControl/browsing-team/remote-jit-sample
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 247
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 26
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 859
+    content: 'C17ZNN1TMD6M:remote-jit-sample gokhan.karadas$ '
+  - delay: 490
+    content: d
+  - delay: 126
+    content: o
+  - delay: 46
+    content: c
+  - delay: 124
+    content: k
+  - delay: 38
+    content: e
+  - delay: 129
+    content: r
+  - delay: 36
+    content: ' '
+  - delay: 134
+    content: s
+  - delay: 161
+    content: t
+  - delay: 126
+    content: a
+  - delay: 139
+    content: t
+  - delay: 129
+    content: s
+  - delay: 216
+    content: "\r\n"
+  - delay: 1051
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       0.00%               38.18MiB / 1.952GiB   1.91%               30.6MB / 2.85MB     0B / 4.1kB          73\r\n"
+  - delay: 500
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       0.00%               38.18MiB / 1.952GiB   1.91%               30.6MB / 2.85MB     0B / 4.1kB          73\r\n"
+  - delay: 501
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       0.72%               38.18MiB / 1.952GiB   1.91%               30.6MB / 2.85MB     0B / 4.1kB          73\r\n"
+  - delay: 498
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       0.72%               38.18MiB / 1.952GiB   1.91%               30.6MB / 2.85MB     0B / 4.1kB          73\r\n"
+  - delay: 501
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       1.11%               38.18MiB / 1.952GiB   1.91%               30.6MB / 2.85MB     0B / 4.1kB          73\r\n"
+  - delay: 498
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       1.11%               38.18MiB / 1.952GiB   1.91%               30.6MB / 2.85MB     0B / 4.1kB          73\r\n"
+  - delay: 500
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       1.03%               38.18MiB / 1.952GiB   1.91%               30.6MB / 2.85MB     0B / 4.1kB          73\r\n"
+  - delay: 499
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       1.03%               38.18MiB / 1.952GiB   1.91%               30.6MB / 2.85MB     0B / 4.1kB          73\r\n"
+  - delay: 501
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       0.80%               38.18MiB / 1.952GiB   1.91%               30.6MB / 2.85MB     0B / 4.1kB          73\r\n                    --                  0.00%               0B / 0B               0.00%               0B / 0B             0B / 0B             0\r\n"
+  - delay: 502
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       0.80%               38.18MiB / 1.952GiB   1.91%               30.6MB / 2.85MB     0B / 4.1kB          73\r\n                    --                  0.00%               0B / 0B               0.00%               0B / 0B             0B / 0B             0\r\n"
+  - delay: 494
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       29.90%              43.94MiB / 1.952GiB   2.20%               34.1MB / 3.13MB     0B / 4.1kB          73\r\nc7857b3ca66e        youthful_darwin     0.00%               25.91MiB / 1.952GiB   1.30%               279kB / 3.53MB      0B / 4.1kB          27\r\n"
+  - delay: 504
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       29.90%              43.94MiB / 1.952GiB   2.20%               34.1MB / 3.13MB     0B / 4.1kB          73\r\nc7857b3ca66e        youthful_darwin     0.00%               25.91MiB / 1.952GiB   1.30%               279kB / 3.53MB      0B / 4.1kB          27\r\n"
+  - delay: 497
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       1.60%               39.75MiB / 1.952GiB   1.99%               34.1MB / 3.13MB     0B / 4.1kB          73\r\nc7857b3ca66e        youthful_darwin     1.59%               25.88MiB / 1.952GiB   1.30%               280kB / 3.53MB      0B / 4.1kB          27\r\n"
+  - delay: 501
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       1.60%               39.75MiB / 1.952GiB   1.99%               34.1MB / 3.13MB     0B / 4.1kB          73\r\nc7857b3ca66e        youthful_darwin     1.59%               25.88MiB / 1.952GiB   1.30%               280kB / 3.53MB      0B / 4.1kB          27\r\n"
+  - delay: 499
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       1.41%               39.55MiB / 1.952GiB   1.98%               34.1MB / 3.13MB     0B / 4.1kB          73\r\nc7857b3ca66e        youthful_darwin     1.44%               25.81MiB / 1.952GiB   1.29%               281kB / 3.53MB      0B / 4.1kB          27\r\n"
+  - delay: 500
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       1.41%               39.55MiB / 1.952GiB   1.98%               34.1MB / 3.13MB     0B / 4.1kB          73\r\nc7857b3ca66e        youthful_darwin     1.44%               25.81MiB / 1.952GiB   1.29%               281kB / 3.53MB      0B / 4.1kB          27\r\n"
+  - delay: 499
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       1.04%               39.55MiB / 1.952GiB   1.98%               34.1MB / 3.13MB     0B / 4.1kB          73\r\nc7857b3ca66e        youthful_darwin     1.42%               25.81MiB / 1.952GiB   1.29%               281kB / 3.53MB      0B / 4.1kB          27\r\n"
+  - delay: 497
+    content: "\e[2J\e[HCONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS\r\nacfd0ff22d1c        goofy_hawking       1.04%               39.55MiB / 1.952GiB   1.98%               34.1MB / 3.13MB     0B / 4.1kB          73\r\nc7857b3ca66e        youthful_darwin     1.42%               25.81MiB / 1.952GiB   1.29%               281kB / 3.53MB      0B / 4.1kB          27\r\n"
+  - delay: 146
+    content: "^C\r\nC17ZNN1TMD6M:remote-jit-sample gokhan.karadas$ "
+  - delay: 1684
+    content: "logout\r\n"
